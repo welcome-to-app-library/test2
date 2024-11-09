@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download MyApp</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            background-color: white;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .btn-download {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-download:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            color: #888;
+            font-size: 14px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #888;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- App Icon -->
+    <img src="https://via.placeholder.com/100" alt="App Icon" class="app-icon">
+    
+    <!-- App Title -->
+    <h1>MyApp</h1>
+
+    <!-- App Description -->
+    <p>MyApp is a fast, easy-to-use task manager that helps you stay organized and productive. Whether you're managing personal tasks or work projects, MyApp makes it easy to keep track of everything in one place.</p>
+
+    <!-- Direct APK Download Link (hosted locally) -->
+    <a href="uploads/ready.apk" class="btn-download" download="ready.apk">
+        Download APK
+    </a>
+</div>
+
+<footer>
+    <p>By downloading, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+</footer>
+
+</body>
+</html>
